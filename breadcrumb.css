@@ -1,0 +1,24 @@
+.breadcrumbs {
+    list-style: none;
+}
+
+.breadcrumb-items {
+    display: inline;
+}
+
+.breadcrumb-items a {
+    color: blue;
+    text-decoration: none;
+}
+
+.breadcrumb-items a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-items span {
+    color: black;
+}
+
+.breadcrumbs li+li::before {
+    content: '> ';
+}

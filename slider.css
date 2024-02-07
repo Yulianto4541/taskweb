@@ -1,0 +1,69 @@
+.task-3 {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-hotel {
+    align-self: center;
+    width: 100%;
+}
+
+.slider-hotel-item {
+    overflow: hidden;
+    width: 550px;
+    height: auto;
+    margin: 12px;
+    border: 1px solid #bbb;
+    border-radius: 16px;
+}
+
+.slider-hotel-item img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: block;
+}
+
+.content {
+    padding: 16px;
+}
+
+.card-text {
+    font-size: 15px;
+    width: 100%;
+}
+
+.description {
+    padding-bottom: 15px;
+}
+.gap {
+    padding-top: 10px;
+}
+
+.acomodation {
+  text-decoration: none;
+  font-size:15px;
+  font-family:Arial;
+  color: white;
+  padding: 10px 25px;
+  border-width:1px;
+  color:#ffffff;
+  border-color:#337fed;
+  font-weight:bold;
+  border-top-left-radius:25px;
+  border-top-right-radius:25px;
+  border-bottom-left-radius:25px;
+  border-bottom-right-radius:25px;
+  box-shadow:inset 0px 1px 0px 0px #97c4fe;
+  text-shadow:inset 0px 1px 0px #1570cd;
+  background:linear-gradient(#3d94f6, #1e62d0);
+}
+
+/* .btn-acomodation:hover {
+  background: linear-gradient(#1e62d0, #3d94f6);
+} */
+                

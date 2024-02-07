@@ -1,0 +1,39 @@
+.task-6 {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-tui {
+    align-self: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider-tui-item {
+    width: 100%;
+    margin: 12px;
+    border: 1px solid #bbb;
+    border-radius: 50px 50px 16px 16px;
+}
+
+.slider-tui-item img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: block;
+}
+
+.content {
+    padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .slider-tui {
+        width: 70%;
+        margin: 12px;
+    }
+}

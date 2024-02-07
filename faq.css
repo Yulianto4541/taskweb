@@ -1,0 +1,19 @@
+.card {
+    padding: 4px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    margin: 8px;
+}
+.accordion {
+    border: none;
+    padding: 12px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}

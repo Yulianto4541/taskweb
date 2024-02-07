@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #bbb;
+    width: 100%;
+}
+
+.description {
+    margin: 12px;
+    width: 60%;
+}
+
+.image {
+    background-image: url('https://images.ctfassets.net/ycifqxoj6n31/3Emn62z8Uk6BPz3qDuzJ0G/e0650277e05a3b42f9eebd94b41d19c9/tips-01.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 250px;
+}
+
+@media screen and (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .description,
+    .image {
+        width: 100%;
+    }
+}
